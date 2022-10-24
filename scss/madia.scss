@@ -1,0 +1,162 @@
+@media (max-width:960px) {
+	.main {
+		&__space4-relative {
+			img {
+				width: 250px !important;
+			}
+
+			span {
+				padding-left: 300px !important;
+			}
+		}
+
+		.section {
+			&__contant {
+				flex-direction: row-reverse;
+				align-items: flex-end;
+
+				img {
+					height: 500px;
+				}
+			}
+
+			&__text {
+				width: 300px;
+				padding-right: 20px;
+			}
+			&__offers-content{
+				gap: 30px;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.main {
+		&__space4-relative {
+			img {
+				// display: none;
+				width: 40px !important;
+			}
+
+			span {
+				padding-left: 100px !important;
+			}
+		}
+	}
+}
+
+
+@media(max-width:745px){
+	.section{
+		&__offers-info{
+			p{
+				width: 280px;
+				height: 219px;
+			}
+			button{
+				width: 280px;
+			}
+		}
+	}
+}
+
+@media (max-width: 641px) {
+	.container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.header {
+		&__info {
+			button {
+				display: none;
+			}
+
+			:first-child {
+				padding: 0;
+			}
+		}
+	}
+
+	.main {
+		&__space4-relative {
+
+			h1 {
+				font-weight: 400;
+				font-size: 41px;
+				line-height: 120%;
+				text-align: center;
+
+				.freedom {
+					padding-left: 10px !important;
+				}
+			}
+
+			img {
+				display: none;
+			}
+
+			button {
+				display: block;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+		}
+
+		.section {
+
+			// &__location {
+			// 	.section__contant {
+			// 		// align-items: flex-start;
+			// 	}
+			// }
+
+			&__h2 {
+				display: block;
+			}
+
+			&__style {
+				.section__contant {
+					flex-direction: column;
+					align-items: flex-start;
+
+
+					.section__img {
+						width: 100%;
+
+						:first-child {
+							display: none;
+						}
+
+						:last-child {
+							display: block;
+							height: 320px;
+						}
+					}
+
+					.section__text {
+						width: 100%;
+						display: flex;
+						justify-content: space-between;
+						padding-top: 50px;
+						padding-right: 0px;
+
+						p {
+							width: 280px;
+						}
+
+						p:not(:last-child) {
+							padding-right: 15px;
+						}
+
+						h2 {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

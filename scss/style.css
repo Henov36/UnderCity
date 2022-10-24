@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 100%;
+  color: #F6F6F6;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 120%;
+}
+
+span {
+  color: #ff0000;
+}
+
+button {
+  width: 330px;
+  height: 55px;
+}
+
+section {
+  padding: 7vw 0vw;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0px 20px 0px 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F6F6F6;
+}
+.header__contant {
+  display: flex;
+  justify-content: space-between;
+  height: 124px;
+}
+.header__logo {
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header__logo a {
+  transition: all 0.3s;
+}
+.header__logo a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: #C00000;
+}
+.header__info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.header__info button {
+  color: #F6F6F6;
+  background-color: #2B2B2B;
+  transition: 0.5s ease;
+  width: 285px;
+}
+.header__info button:hover {
+  color: #2B2B2B;
+  background-color: #F6F6F6;
+  border: solid 1px #2B2B2B;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.header__info :first-child {
+  padding-right: 50px;
+}
+
+.main__fonpage {
+  height: 45vw;
+  min-height: 384px;
+  background-image: url(../img/house_fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__fonpage img {
+  width: 100%;
+}
+.main__space4 {
+  padding-top: 19vw;
+}
+.main__space4-relative {
+  position: relative;
+}
+.main__space4-relative button {
+  color: #2B2B2B;
+  background-color: #F6F6F6;
+  display: none;
+  transition: 0.5s ease;
+}
+.main__space4-relative button:hover {
+  color: #F6F6F6;
+  background-color: #2B2B2B;
+  border: solid 1px #F6F6F6;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.main__space4 .freedom {
+  padding-left: 460px;
+  color: #F6F6F6;
+}
+.main__space4 img {
+  width: 400px;
+  height: 5px;
+  position: absolute;
+  top: 100px;
+  left: 190px;
+}
+.main .section__about {
+  background-color: #F3F3F3;
+}
+.main .section__contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .section__img {
+  width: 50%;
+  height: 100%;
+}
+.main .section__img img {
+  width: 100%;
+}
+.main .section__text {
+  width: 330px;
+}
+.main .section__text :first-child {
+  padding-bottom: 50px;
+}
+.main .section__text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.main .section__text p:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.section__h2 {
+  display: none;
+  padding-bottom: 50px;
+}
+.section__location {
+  background-color: #F6F6F6;
+}
+.section__location .section__contant {
+  flex-direction: row-reverse;
+}
+.section__location .section__contant .section__img {
+  max-height: 700px;
+}
+.section__location .section__contant .section__img iframe {
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+}
+.section__style {
+  background-color: #F3F3F3;
+}
+.section__style .section__contant .section__img :last-child {
+  display: none;
+}
+
+.section__benefits {
+  background-color: #F6F6F6;
+  padding-top: 7vw;
+}
+.section__benefits-h2 {
+  padding-bottom: 50px;
+}
+
+.swiper {
+  height: 750px;
+}
+.swiper-slide {
+  width: 570px;
+  height: 100%;
+}
+.swiper-slide__text {
+  padding-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.swiper-slide .slide-image {
+  height: 650px;
+}
+.swiper-slide .slide-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.section {
+  padding: 7vw 0;
+}
+.section__offers {
+  background-color: #F3F3F3;
+}
+.section .section__offers-h2 p {
+  padding: 25px 0px 50px 0px;
+}
+.section__offers-content {
+  display: flex;
+  gap: 60px;
+}
+.section__offers-block {
+  min-width: 280px;
+  max-width: 570px;
+}
+.section__offers-img img {
+  width: 100%;
+}
+.section__offers-info {
+  padding-top: 50px;
+}
+.section__offers-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 330px;
+}
+.section__offers-info button {
+  background-color: #2B2B2B;
+  color: #F6F6F6;
+  transition: 0.5s ease;
+}
+.section__offers-info button:hover {
+  background-color: #F6F6F6;
+  color: #2B2B2B;
+  border: solid 1px #2B2B2B;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
