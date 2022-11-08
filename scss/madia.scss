@@ -312,10 +312,11 @@ $c_red: #C00000;
 
 
 		.section__style {
-			overflow: hidden;
+			
 
 			.section__contant {
 				flex-direction: column-reverse;
+				// overflow: hidden;
 
 				h2 {
 					display: none;
@@ -330,11 +331,14 @@ $c_red: #C00000;
 				}
 
 				.section__img {
-					width: auto !important;
-					overflow: hidden !important;
+					width: 280px;
+					// overflow: hidden !important;
 
-					img {
-						width: 530px;
+					:first-child{
+						display: block !important;
+					}
+					:last-child{
+						display: none !important;
 					}
 				}
 			}
