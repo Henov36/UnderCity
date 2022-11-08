@@ -1,32 +1,25 @@
 const swiper = new Swiper('.swiper', {
-	// Optional parameters
 	direction: 'horizontal',
 	loop: false,
-	// effect: 'fade',
 	slidesPerView: 1,
 	spaceBetween: 60,
 	slidesPerGroup: 1,
 	initialSlide: 3,
 
 
-	// If we need pagination
 	pagination: {
 		el: '.swiper-pagination',
-		type: 'bullets',
+		// type: 'bullets',
 		clickble: true,
 		dynamicBullets: true,
+		// hideonclick: true,
 	},
 
 	keyboard: {
 		enabled: true,
 		onlyInViewport: true,
 	},
-	// mousewheel: {
-	// 	sensitivity: 1,
 
-	// },
-
-	// Navigation arrows
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
@@ -38,10 +31,6 @@ const swiper = new Swiper('.swiper', {
 			slidesPerGroup: 2,
 		},
 	},
-	// And if we need scrollbar
-	// scrollbar: {
-	// 	el: '.swiper-scrollbar',
-	// },
 });
 
 
@@ -51,21 +40,18 @@ const swiper = new Swiper('.swiper', {
 
 
 const swiperComfort = new Swiper('.swiper-zone', {
-	// Optional parameters
 	direction: 'horizontal',
 	loop: false,
 	slidesPerView: 1,
 	spaceBetween: 60,
 	initialSlide: 1,
 
-	// If we need pagination
 	pagination: {
 		el: '.swiper-pagination',
 		clickble: true,
-		dynamicBullets: true,
+		// dynamicBullets: true,
 	},
 
-	// Navigation arrows
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
@@ -75,7 +61,6 @@ const swiperComfort = new Swiper('.swiper-zone', {
 
 let form = document.querySelector('.js-form'),
 	formInputs = document.querySelectorAll('.js-input'),
-	// inputName = document.querySelectorAll('.input__name'),
 	inputPhone = document.querySelector('.input__tel'),
 	inputCheckbox = document.querySelector('.checkox-input');
 

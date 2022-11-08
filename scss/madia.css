@@ -151,8 +151,10 @@
   }
   .main .swiper {
     height: auto;
-    max-height: 750px;
     min-height: 410px;
+  }
+  .main .swiper p {
+    padding-bottom: 40px;
   }
   .main .swiper .slide-image {
     height: auto !important;
@@ -181,6 +183,9 @@
   .main__space4-relative button {
     width: 270px !important;
   }
+  .main .section__style {
+    overflow: hidden;
+  }
   .main .section__style .section__contant {
     flex-direction: column-reverse;
   }
@@ -195,6 +200,10 @@
   }
   .main .section__style .section__contant .section__img {
     width: auto !important;
+    overflow: hidden !important;
+  }
+  .main .section__style .section__contant .section__img img {
+    width: 530px;
   }
   .main .section .section__contant {
     flex-direction: column-reverse;

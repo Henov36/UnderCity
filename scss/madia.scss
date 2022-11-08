@@ -82,7 +82,7 @@ $c_red: #C00000;
 				height: 55px;
 			}
 
-	
+
 
 
 		}
@@ -257,9 +257,13 @@ $c_red: #C00000;
 
 		.swiper {
 			height: auto;
-			max-height: 750px;
+			// max-height: 750px;
 			min-height: 410px;
+
 			// overflow: auto !important;
+			p {
+				padding-bottom: 40px;
+			}
 
 			.slide-image {
 				height: auto !important;
@@ -308,6 +312,8 @@ $c_red: #C00000;
 
 
 		.section__style {
+			overflow: hidden;
+
 			.section__contant {
 				flex-direction: column-reverse;
 
@@ -325,6 +331,11 @@ $c_red: #C00000;
 
 				.section__img {
 					width: auto !important;
+					overflow: hidden !important;
+
+					img {
+						width: 530px;
+					}
 				}
 			}
 		}
